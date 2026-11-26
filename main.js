@@ -3,7 +3,8 @@ const path = require('path');
 
 // Sayt internetda bo'lsa, havolani yozing: 'https://saytingiz.uz'
 // Bo'sh qolsa, www/index.html ochiladi.
-const SITE_URL = '';
+const SITE_URL = 'https://etahlil.netlify.app';
+
 
 function createWindow() {
   const win = new BrowserWindow({
